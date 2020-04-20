@@ -51,9 +51,9 @@ export namespace CalculationMethod {
 }
 
 export class Coordinates {
-  constructor(longitude: number, latitude: number);
-  longitude: number;
+  constructor(latitude: number, longitude: number);
   latitude: number;
+  longitude: number;
 }
 
 export class SunnahTimes {
